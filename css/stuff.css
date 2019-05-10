@@ -1,0 +1,201 @@
+.header {
+	display: grid;
+	grid-template-columns: 1fr 9fr;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.logo {
+	background-image: url(../images/logo.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 3px white solid;
+	border-radius: 50%;
+	height: 15vh;
+	width: 15vh;
+}
+
+.menu {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+li {
+	list-style: none;
+	text-align: center;
+	font-family: Bebas Neue;
+	grid-gap: 2px;
+	padding: 10px;
+	color: white;
+	border: 3px white solid;
+}
+
+h1 {
+	text-align: center;
+	font-family: Bebas Neue;
+	color: white;
+}
+
+ul {
+	padding: 0px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background: black;
+}
+
+.showcase {
+	height: 100vh;
+	background-image: url(../images/stuff.jpg);
+	background-position: center;
+	background-size: contain;
+	border: 3px white solid;
+	margin-bottom: 15px;
+}
+
+.container {
+	height: 50vh;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 15px;
+}
+
+.korean {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 15px;
+}
+
+.striped {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 15px;
+}
+
+.vintage {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 15px;
+}
+
+.statement {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 15px;
+}
+
+.polo {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 15px;
+}
+
+.item {
+	border: 3px white solid;
+	height: 50vh;
+}
+
+.item1 {
+	background-image: url(../images/pic1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.text {
+	height: 10vh;
+	text-align: center;
+	font-family: Bebas Neue;
+	color: white;
+	font-size: 50px;
+}
+
+.item2 {
+	background-image: url(../images/pic2.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.item3 {
+	background-image: url(../images/pic3.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.item4 {
+	background-image: url(../images/pic4.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.item5 {
+	background-image: url(../images/pic5.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.item6 {
+	background-image: url(../images/pic6.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.item7 {
+	background-image: url(../images/pic7.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.item8 {
+	background-image: url(../images/pic8.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.item9 {
+	background-image: url(../images/pic9.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.item10 {
+	background-image: url(../images/pic10.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.item11 {
+	background-image: url(../images/pic11.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.item12 {
+	background-image: url(../images/pic12.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.item13 {
+	background-image: url(../images/pic13.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.item14 {
+	background-image: url(../images/pic14.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.item15 {
+	background-image: url(../images/pic15.jpg);
+	background-position: center;
+	background-size: cover;
+}

@@ -1,0 +1,83 @@
+.header {
+	display: grid;
+	grid-template-columns: 1fr 9fr;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.logo {
+	background-image: url(../images/logo.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 3px white solid;
+	border-radius: 50%;
+	height: 15vh;
+	width: 15vh;
+}
+
+.menu {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+li {
+	list-style: none;
+	text-align: center;
+	font-family: Bebas Neue;
+	grid-gap: 2px;
+	padding: 10px;
+	color: white;
+	border: 3px white solid;
+}
+
+ul {
+	padding: 0px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background: black;
+}
+
+.showcase {
+	background-image: url(../images/home.jpeg);
+	background-position: center;
+	background-size: cover;
+	height: 70vh;
+	border: 3px white solid;
+	margin-bottom: 15px;
+}
+
+.showcase2 {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	height: 45vh;
+	padding: 10px;
+}
+
+.pic {
+	background-image: url(../images/pic.jpg);
+	background-position: center;
+	background-size: contain;
+	border: 3px white solid;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-family: Bebas Neue;
+}
+
+.description {
+	color: white;
+	text-align: center;
+	font-family: Bebas Neue;
+	font-size: 50px;
+}
